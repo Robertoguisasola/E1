@@ -12,10 +12,11 @@ class Autor(models.Model):
 
 
 class Articulo(models.Model):
+    redactor = models.ForeignKey(Autor, on_delete=models.CASCADE)
     titular = models.CharField(max_length=100, default='')
     entradilla = models.TextField()
     noticia = models.TextField()
-    fecha = models.DateTimeField(default=datetime.now, blank=True)
+    fecha = models.CharField(max_length=20, default='')
 
     def __str__(self):
         return self.titular
