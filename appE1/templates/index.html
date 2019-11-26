@@ -1,18 +1,17 @@
 {% extends "plantilla.html"%}
 
-{% block titulo %}Listado de Post{% endblock %}
+{% block titulo %}Bienvenida{% endblock %}
 
 {% block contenido %}
-<h2>Listado de posts</h2>
-{% if listaArticulos %}
-	<ul>
-	{% for a in listaArticulos %}
-		<li>
-		    <a href="/articulo/{{ a.id }}">{{ a.titular}}</a>
-		</li>
-	{% endfor %}
-	</ul>
-{% else %}
-<p>No hay artículos creados.</p>
-{% endif %}
+<h1>Bienvenido a EL MUNDO 2.0</h1>
+<p align="justify">
+    Esta página web está siendo desarrollado con el software <a href="https://www.jetbrains.com/pycharm/">Pycharm</a>,
+    el cual nos permite combinar todos los recursos de HTML, CSS, JavaScript y jQuery, para así poder desarrollar una
+    aplicación DJango
+</p>
+<p align="justify">
+
+</p>
+
+
 {% endblock %}

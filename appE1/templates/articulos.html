@@ -1,0 +1,18 @@
+{% extends "plantilla.html"%}
+
+{% block titulo %}Listado de Post{% endblock %}
+
+{% block contenido %}
+<h2>Listado de posts</h2>
+{% if listaArticulos %}
+	<ul>
+	{% for a in listaArticulos %}
+		<li>
+		    <a href="/articulo/{{ a.id }}">{{ a.titular}}</a>
+		</li>
+	{% endfor %}
+	</ul>
+{% else %}
+<p>No hay artículos creados.</p>
+{% endif %}
+{% endblock %}
