@@ -1,0 +1,24 @@
+{% extends "plantilla.html"%}
+
+{% block titulo %}Autores{% endblock %}
+
+{% block contenido %}
+<!--TODO editar y añadir cosas si quiero-->
+<h1>A continuación se muestra un listado de los redactores que poseemos</h1>
+<p align="justify">
+    Al hacer clic sobre uno de los autores, podrás ver todos los árticulos que éste ha escrito
+</p>
+{% if listaAutores%}
+    <ul>
+        {% for a in listaAutores%}
+            <li>
+                <p><a href="/autor/{{ a.id }}">{{ a.nombre}}</a></p>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+<p>
+    No hay autores en esta revista
+</p>
+{% endif %}
+{% endblock %}

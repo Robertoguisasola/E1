@@ -13,6 +13,9 @@
         <h2><a href="/articulo/{{ a.id }}">{{ a.titular}}</a></h2>
         <p>{{ a.entradilla }}</p>
     {% endfor %}
+{% else %}
+<p>
+    No hay artículos en esta revista
+</p>
 {% endif%}
-
 {% endblock %}

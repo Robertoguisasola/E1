@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ba4360-bd1e-46cf-b6e1-824084cbed66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/appE1/templates/autores.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appE1/templates/another_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appE1/templates/articulos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appE1/templates/examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appE1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appE1/templates/articulos.html" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/templates/articulos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appE1/templates/plantilla.html" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/templates/plantilla.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appE1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appE1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/views.py" afterDir="false" />
@@ -73,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574716157102</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Publica los post con sus diferentes enlaces y saca cada post">
+      <created>1574852761104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574852761104</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -95,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Saca el css bien, no se xq fallaba y ya están los models creados" />
     <MESSAGE value="Saca los post ya. Editar el contenido de estos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saca los post ya. Editar el contenido de estos" />
+    <MESSAGE value="Publica los post con sus diferentes enlaces y saca cada post" />
+    <option name="LAST_COMMIT_MESSAGE" value="Publica los post con sus diferentes enlaces y saca cada post" />
   </component>
 </project>
