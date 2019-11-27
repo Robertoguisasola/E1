@@ -1,0 +1,17 @@
+{% extends "plantilla.html"%}
+
+{% block titulo %}Artículo {{ articulo.id }}{% endblock %}
+
+{% block contenido %}
+<h1>{{ articulo.titular}}</h1>
+<h2 align="justify">
+    {{ articulo.entradilla }}
+</h2>
+
+<p align="justify">{{ articulo.noticia }}</p>
+
+<!--TODO poner los autores y enlazarlos-->
+
+<p align="justify">Esta noticia ha sido publicada el día {{articulo.fecha}} por ...</p>
+
+{% endblock %}

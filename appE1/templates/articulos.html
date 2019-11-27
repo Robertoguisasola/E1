@@ -1,18 +1,18 @@
 {% extends "plantilla.html"%}
 
-{% block titulo %}Listado de Post{% endblock %}
+{% block titulo %}Artículos{% endblock %}
 
 {% block contenido %}
-<h2>Listado de posts</h2>
+<h1>Artículos</h1>
+<p align="justify">
+    A continuación se muestra un listado de noticias. Haga clic sobre el título para acceder a la noticia completa
+</p>
+
 {% if listaArticulos %}
-	<ul>
-	{% for a in listaArticulos %}
-		<li>
-		    <a href="/articulo/{{ a.id }}">{{ a.titular}}</a>
-		</li>
-	{% endfor %}
-	</ul>
-{% else %}
-<p>No hay art�culos creados.</p>
-{% endif %}
+    {% for a in listaArticulos %}
+        <h2><a href="/articulo/{{ a.id }}">{{ a.titular}}</a></h2>
+        <p>{{ a.entradilla }}</p>
+    {% endfor %}
+{% endif%}
+
 {% endblock %}
