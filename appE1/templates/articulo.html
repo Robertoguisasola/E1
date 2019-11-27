@@ -4,14 +4,13 @@
 
 {% block contenido %}
 <h1>{{ articulo.titular}}</h1>
+
 <h2 align="justify">
     {{ articulo.entradilla }}
 </h2>
 
 <p align="justify">{{ articulo.noticia }}</p>
 
-<!--TODO poner los autores y enlazarlos-->
-
-<p align="justify">Esta noticia ha sido publicada el día {{articulo.fecha}} por ...</p>
+<p align="justify">Esta noticia ha sido publicada el día {{articulo.fecha}} por {{ articulo.redactor }}</p>
 
 {% endblock %}

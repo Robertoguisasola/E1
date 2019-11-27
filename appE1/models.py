@@ -6,7 +6,8 @@ class Redactor(models.Model):
     apellido = models.CharField(max_length=99, default='')
 
     def __str__(self):
-        return self.nombre
+
+        return self.nombre + ' ' + self.apellido
 
 
 class Articulo(models.Model):
