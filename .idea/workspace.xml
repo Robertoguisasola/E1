@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ba4360-bd1e-46cf-b6e1-824084cbed66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appE1/templates/autores.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appE1/templates/redactor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appE1/templates/articulos.html" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/templates/articulos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appE1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appE1/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appE1/migrations/0002_auto_20191125_2133.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appE1/migrations/0003_auto_20191126_0050.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appE1/migrations/0004_auto_20191126_0050.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appE1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appE1/templates/autor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appE1/templates/autores.html" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/templates/redactores.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appE1/templates/plantilla.html" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/templates/plantilla.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appE1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appE1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +35,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U6eZBf44qPdZmMYe430YhZXlX4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/Ingenieria Informatica/3º grado/Primer semestre/Ingenieria Web/Tema 4" />
@@ -78,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574852761104</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Saca el listado de autores, sin referenciarlos a sus artículos">
+      <created>1574853850287</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574853850287</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -98,9 +116,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Saca el css bien, no se xq fallaba y ya están los models creados" />
     <MESSAGE value="Saca los post ya. Editar el contenido de estos" />
     <MESSAGE value="Publica los post con sus diferentes enlaces y saca cada post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Publica los post con sus diferentes enlaces y saca cada post" />
+    <MESSAGE value="Saca el listado de autores, sin referenciarlos a sus artículos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saca el listado de autores, sin referenciarlos a sus artículos" />
   </component>
 </project>

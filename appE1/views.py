@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_list_or_404, get_object_or_404
-from appE1.models import Articulo, Autor
+from appE1.models import Articulo, Redactor
 
 
 def index(request):
@@ -8,7 +8,7 @@ def index(request):
 
 # Devuelve un listado de artículos
 def articulos(request):
-    articulos = get_list_or_404(Articulo.objects.order_by('titular'))
+    articulos = get_list_or_404(Articulo.objects.order_by('-fecha'))
     context = {'listaArticulos': articulos}
     return render(request, 'articulos.html', context)
 
@@ -20,14 +20,15 @@ def articulo(request, articulo_id):
     return render(request, 'articulo.html', context)
 
 
-def autores(request):
-    autores = get_list_or_404(Autor.objects.order_by('nombre'))
-    context = {'listaAutores': autores}
-    return render(request, 'autores.html', context)
+def redactores(request):
+    redactores = get_list_or_404(Redactor.objects.order_by('nombre'))
+    context = {'listaRedactores': redactores}
+    return render(request, 'redactores.html', context)
 
 
-def autor(request, autor_id):
-    autor = get_object_or_404(Autor, pk=autor_id)
-    autor = {'autor': autor}
-    return render(request, 'autor.html', context)
+def redactor(request, redactor_id):
+    redactor = get_object_or_404(Redactor, pk=redactor_id)
+    articulos = get_list_or_404(Articulo.objects.order_by('titular'))
+    context = {'redactor': redactor, 'listaArticulos': articulos}
+    return render(request, 'redactor.html', context)
 

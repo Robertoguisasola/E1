@@ -8,11 +8,11 @@
 <p align="justify">
     Al hacer clic sobre uno de los autores, podrás ver todos los árticulos que éste ha escrito
 </p>
-{% if listaAutores%}
+{% if listaRedactores%}
     <ul>
-        {% for a in listaAutores%}
+        {% for r in listaRedactores %}
             <li>
-                <p><a href="/autor/{{ a.id }}">{{ a.nombre}}</a></p>
+                <p><a href="/redactor/{{ r.id }}">{{ r.nombre }}</a></p>
             </li>
         {% endfor %}
     </ul>
