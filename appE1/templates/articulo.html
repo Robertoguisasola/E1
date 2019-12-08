@@ -1,6 +1,6 @@
 {% extends "plantilla.html"%}
 
-{% block titulo %}Artículo {{ articulo.id }}{% endblock %}
+{% block titulo %}Articulo {{ articulo.id }}{% endblock %}
 
 {% block contenido %}
 <h1>{{ articulo.titular}}</h1>
@@ -11,6 +11,6 @@
 
 <p align="justify">{{ articulo.noticia }}</p>
 
-<p align="justify">Esta noticia ha sido publicada el día {{articulo.fecha}} por {{ articulo.redactor }}</p>
+<p align="justify">Esta noticia ha sido publicada el dia {{articulo.fecha}} por {{ articulo.redactor }}</p>
 
 {% endblock %}

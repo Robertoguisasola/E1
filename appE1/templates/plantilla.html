@@ -29,13 +29,12 @@
         </div>
         <div id="menubar">
             <ul id="menu">
-                <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-                <li><a href="/home">Presentación</a></li>
-                <li><a href="/articulos">Artículos</a></li>
-                <li><a href="/redactores">Redactores</a></li>
-                <!--TODO eliminar el color diferente si no consigo cambiarlo y que muestre en la que te encuentras-->
-                <li class="selected"><a href="another_page.html">Another Page</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                {% block menu %}
+                    <li><a href="/home">Presentacion</a></li>
+                    <li><a href="/articulos">Articulos</a></li>
+                    <li><a href="/redactores">Redactores</a></li>
+                    <li><a href="/contacto">Contactanos</a></li>
+                {% endblock %}
             </ul>
         </div>
     </div>
@@ -61,7 +60,8 @@
             </form>
         </div>
         <div id="content">
-            {% block contenido %}{% endblock %}
+            {% block contenido %}
+            {% endblock %}
         </div>
     </div>
     <div id="footer">

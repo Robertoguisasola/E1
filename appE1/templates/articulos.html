@@ -1,11 +1,18 @@
 {% extends "plantilla.html"%}
 
-{% block titulo %}Artículos{% endblock %}
+{% block titulo %}Articulos{% endblock %}
+
+{% block menu %}
+<li><a href="/home">Presentacion</a></li>
+<li class="selected"><a href="/articulos">Articulos</a></li>
+<li><a href="/redactores">Redactores</a></li>
+<li><a href="/contacto">Contactanos</a></li>
+{% endblock %}
 
 {% block contenido %}
-<h1>Artículos</h1>
+<h1>Articulos</h1>
 <p align="justify">
-    A continuación se muestra un listado de noticias. Haga clic sobre el título para acceder a la noticia completa
+    A continuacion se muestra un listado de noticias. Haga clic sobre el titulo para acceder a la noticia completa
 </p>
 
 {% if listaArticulos %}
@@ -15,7 +22,7 @@
     {% endfor %}
 {% else %}
 <p>
-    No hay artículos en esta revista
+    No hay articulos en esta revista
 </p>
 {% endif%}
 {% endblock %}

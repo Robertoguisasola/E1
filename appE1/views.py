@@ -32,3 +32,5 @@ def redactor(request, redactor_id):
     context = {'redactor': redactor, 'listaArticulos': articulos}
     return render(request, 'redactor.html', context)
 
+def contacto(request):
+    return render(request, 'contacto.html')

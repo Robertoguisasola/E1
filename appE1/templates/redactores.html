@@ -2,11 +2,17 @@
 
 {% block titulo %}Autores{% endblock %}
 
+{% block menu %}
+<li><a href="/home">Presentacion</a></li>
+<li><a href="/articulos">Articulos</a></li>
+<li class="selected"><a href="/redactores">Redactores</a></li>
+<li><a href="/contacto">Contactanos</a></li>
+{% endblock %}
+
 {% block contenido %}
-<!--TODO editar y añadir cosas si quiero-->
 <h1>A continuación se muestra un listado de los redactores que poseemos</h1>
 <p align="justify">
-    Al hacer clic sobre uno de los autores, podrás ver todos los árticulos que éste ha escrito
+    Al hacer clic sobre uno de los autores, podras ver todos los articulos que este ha escrito
 </p>
 {% if listaRedactores%}
     <ul>
