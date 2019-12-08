@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5ba4360-bd1e-46cf-b6e1-824084cbed66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appE1/templates/plantilla.html" beforeDir="false" afterPath="$PROJECT_DIR$/appE1/templates/plantilla.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575806610485</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Web terminada">
+      <created>1575807029381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575807029381</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Web terminada">
+      <created>1575807189713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575807189713</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -124,6 +138,7 @@
     <MESSAGE value="Publica los post con sus diferentes enlaces y saca cada post" />
     <MESSAGE value="Saca el listado de autores, sin referenciarlos a sus artículos" />
     <MESSAGE value="Funciona perfectamente, queda añadir los artículos y los redactores que quiera, así como información del redactor que se desee añadir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funciona perfectamente, queda añadir los artículos y los redactores que quiera, así como información del redactor que se desee añadir" />
+    <MESSAGE value="Web terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web terminada" />
   </component>
 </project>
