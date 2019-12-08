@@ -123,8 +123,7 @@
     <MESSAGE value="Saca los post ya. Editar el contenido de estos" />
     <MESSAGE value="Publica los post con sus diferentes enlaces y saca cada post" />
     <MESSAGE value="Saca el listado de autores, sin referenciarlos a sus artículos" />
-    <MESSAGE value="Eliminación de los acentos y funcionamiento de contacto" />
-    <MESSAGE value="Contacto terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contacto terminado" />
+    <MESSAGE value="Funciona perfectamente, queda añadir los artículos y los redactores que quiera, así como información del redactor que se desee añadir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funciona perfectamente, queda añadir los artículos y los redactores que quiera, así como información del redactor que se desee añadir" />
   </component>
 </project>
